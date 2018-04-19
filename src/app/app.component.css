@@ -1,0 +1,8 @@
+app-header {
+  font-family: 'Allura Pro';
+  font-size: 18px;
+}
+router-outlet{
+  font-family: 'Allura Pro';
+  font-size: 18px;
+}

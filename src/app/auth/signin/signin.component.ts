@@ -10,7 +10,7 @@ import {AuthService } from '../auth.service';
 export class SigninComponent implements OnInit {
 
   constructor(private authService:AuthService) { }
-error='';
+error;
   ngOnInit() {
    this.error=this.authService.errorCode;
   }
